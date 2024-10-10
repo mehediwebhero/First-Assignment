@@ -10,12 +10,13 @@
     font-style: none;
 }
 
-.footer-nav a{
-text-decoration: none;
-font-size: 20px;
-font-weight: 700;
+.footer-nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
 }
-/* shire-items */
+
+/* share-items */
 .primary_btn {
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
@@ -62,7 +63,7 @@ font-weight: 700;
 }
 
 
-/* Navigation-area */
+/* Navigation-area-start */
 nav {
     display: flex;
     justify-content: space-between;
@@ -86,11 +87,9 @@ nav li a {
     font-size: 28px;
     font-weight: 800;
     line-height: 33px;
-    letter-spacing: 0%;
-    text-align: left;
 }
 
-/* hero-section */
+/* banner-section-area-start */
 .header {
     background-image: url(../assets/Hero-bg.png);
     background-position: center;
@@ -111,7 +110,6 @@ nav li a {
     font-size: 40px;
     font-weight: 800;
     line-height: 58px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
@@ -121,25 +119,24 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
-.hero-btn {
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+.banner-btn {
     font-size: 16px;
     font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
     padding: 17px 19px 17px 19px;
-    margin-top:28px ;
+    margin-top: 28px;
     line-height: 15px;
-    letter-spacing: 0%;
     text-align: center;
     border-radius: 8px;
     border: none;
     background: rgb(13, 19, 33);
 }
 
+/* information-area-start */
 .info {
     text-align: center;
 }
@@ -147,7 +144,6 @@ nav li a {
 .layout {
     display: flex;
     justify-content: space-evenly;
-    /* background-color: #fcfcfd;  */
     padding: 40px;
 }
 
@@ -195,9 +191,8 @@ nav li a {
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
+    line-height: 50px;
+
 }
 
 .info-description {
@@ -230,16 +225,16 @@ nav li a {
     text-align: left;
     opacity: 0.7;
 }
-
+/* information-area-start */
 .Inspiration {
     width: 940px;
     margin: 0 auto;
-
-}
-
-
+} 
+ /* inspiration-area-End  */
+/* target-area-start */
 .target-area {
     margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 .target-course {
@@ -303,15 +298,16 @@ nav li a {
     width: 1140px;
     margin: auto;
 }
+/* target-area-end */
 
-/* feedback */
+/* feedback-area-start */
 .feedback-area {
     max-width: 1060px;
     background-position: center;
     border-radius: 16px;
     padding: 50px;
-    margin: 50px auto;
-    background-image:linear-gradient(0deg,rgb(16, 16, 16)-19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/handshake.jpg);
+    margin: 70px auto;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16)-19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/handshake.jpg);
 }
 
 .feedback {
@@ -332,6 +328,7 @@ nav li a {
     width: 120px;
     height: 50px;
     padding: 10px;
+    cursor: pointer;
     border-radius: 8px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -357,23 +354,12 @@ nav li a {
     font-size: 14px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
 }
+/* feedback-area-start */
 
-/* .from{
-    box-sizing: border-box;
-border: 1px solid rgba(13, 19, 33, 0.15);
-border-radius: 8px;
-
-background: rgb(255, 255, 255);
-} */
-
-
-
-
-/* footer-area */
+/* footer-area-start */
 footer {
     background: rgba(13, 19, 33, 0.03);
     margin-top: 70px;
@@ -402,3 +388,4 @@ footer {
     list-style: none;
 
 }
+/* footer-area-start */
