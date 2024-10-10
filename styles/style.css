@@ -10,7 +10,11 @@
     font-style: none;
 }
 
-
+.footer-nav a{
+text-decoration: none;
+font-size: 20px;
+font-weight: 700;
+}
 /* shire-items */
 .primary_btn {
     box-sizing: border-box;
@@ -92,7 +96,7 @@ nav li a {
     background-position: center;
 }
 
-.hero-container {
+.banner-container {
     width: 869px;
     justify-content: center;
     align-items: center;
@@ -101,17 +105,17 @@ nav li a {
     margin: 0 auto;
 }
 
-.hero-title {
+.banner-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 40px;
     font-weight: 800;
-    line-height: 68px;
+    line-height: 58px;
     letter-spacing: 0%;
     text-align: center;
 }
 
-.hero-discription {
+.banner-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -127,6 +131,7 @@ nav li a {
     font-size: 16px;
     font-weight: 600;
     padding: 17px 19px 17px 19px;
+    margin-top:28px ;
     line-height: 15px;
     letter-spacing: 0%;
     text-align: center;
